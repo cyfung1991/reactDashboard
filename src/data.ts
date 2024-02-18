@@ -180,3 +180,76 @@ export const topDealUsers = [
         amount: "90.2",
     },
 ];
+
+export const chartBoxUser = {
+    colot: "#8884d8",
+    icon: "userIcon.svg",
+    title: "Total Users",
+    number: "11.223",
+    dataKey: "users",
+    percentage: 46,
+    chartData: [
+        { name: "Sun", users: 1},
+        { name: "Mon", users: 2},
+        { name: "Tue", users: 5},
+        { name: "Wed", users: 10},
+        { name: "Thu", users: 7},
+        { name: "Fri", users: 1},
+        { name: "Sat", users: 3},
+    ]
+}
+
+export const chartBoxProduct = {
+    colot: "gold",
+    icon: "conversionIcon.svg",
+    title: "Total Product",
+    number: "2.6",
+    dataKey: "product",
+    percentage: -12,
+    chartData: [
+        { name: "Sun", product: 300},
+        { name: "Mon", product: 400},
+        { name: "Tue", product: 500},
+        { name: "Wed", product: 100},
+        { name: "Thu", product: 900},
+        { name: "Fri", product: 200},
+        { name: "Sat", product: 400},
+    ]
+}
+
+export const chartBoxRevenue = {
+    colot: "teal",
+    icon: "revenueIcon.svg",
+    title: "Total Revenue",
+    number: "$32.223",
+    dataKey: "revenue",
+    percentage: -12,
+    chartData: [
+        { name: "Sun", revenue: 300},
+        { name: "Mon", revenue: 400},
+        { name: "Tue", revenue: 500},
+        { name: "Wed", revenue: 100},
+        { name: "Thu", revenue: 900},
+        { name: "Fri", revenue: 200},
+        { name: "Sat", revenue: 400},
+    ]
+}
+
+
+export const chartBoxConversion = {
+    colot: "gold",
+    icon: "conversionIcon.svg",
+    title: "Total Ratio",
+    number: "2.6",
+    dataKey: "ratio",
+    percentage: -12,
+    chartData: [
+        { name: "Sun", ratio: 300},
+        { name: "Mon", ratio: 400},
+        { name: "Tue", ratio: 500},
+        { name: "Wed", ratio: 100},
+        { name: "Thu", ratio: 900},
+        { name: "Fri", ratio: 200},
+        { name: "Sat", ratio: 400},
+    ]
+}
