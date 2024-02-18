@@ -182,7 +182,7 @@ export const topDealUsers = [
 ];
 
 export const chartBoxUser = {
-    colot: "#8884d8",
+    color: "#8884d8",
     icon: "userIcon.svg",
     title: "Total Users",
     number: "11.223",
@@ -200,7 +200,7 @@ export const chartBoxUser = {
 }
 
 export const chartBoxProduct = {
-    colot: "gold",
+    color: "gold",
     icon: "conversionIcon.svg",
     title: "Total Product",
     number: "2.6",
@@ -218,7 +218,7 @@ export const chartBoxProduct = {
 }
 
 export const chartBoxRevenue = {
-    colot: "teal",
+    color: "teal",
     icon: "revenueIcon.svg",
     title: "Total Revenue",
     number: "$32.223",
@@ -235,9 +235,8 @@ export const chartBoxRevenue = {
     ]
 }
 
-
 export const chartBoxConversion = {
-    colot: "gold",
+    color: "gold",
     icon: "conversionIcon.svg",
     title: "Total Ratio",
     number: "2.6",
@@ -251,5 +250,100 @@ export const chartBoxConversion = {
         { name: "Thu", ratio: 900},
         { name: "Fri", ratio: 200},
         { name: "Sat", ratio: 400},
+    ]
+}
+
+export const barChartBoxVisit = {
+    color: "#FF8042",
+    title: "Total Visit",
+    dataKey: "visit",
+    chartData: [
+        { name: "Sun", visit: 3},
+        { name: "Mon", visit: 4},
+        { name: "Tue", visit: 5},
+        { name: "Wed", visit: 1},
+        { name: "Thu", visit: 9},
+        { name: "Fri", visit: 2},
+        { name: "Sat", visit: 4},
+    ]
+}
+
+export const barChartBoxRevenue = {
+    color: "#8884d8",
+    title: "Profit earn",
+    dataKey: "revenue",
+    chartData: [
+        { name: "Sun", revenue: 3},
+        { name: "Mon", revenue: 4},
+        { name: "Tue", revenue: 5},
+        { name: "Wed", revenue: 1},
+        { name: "Thu", revenue: 9},
+        { name: "Fri", revenue: 2},
+        { name: "Sat", revenue: 4},
+    ]
+}
+
+export const pieChartData = {
+    title: "Lead By Source",
+    dataKey: "value",
+    chartData: [
+        {name: "Mobile", value: 300, color: "#0088FE"},
+        {name: "Desktop", value: 500, color: "#00C49F"},
+        {name: "Laptop", value: 400, color: "#FFBB28"},
+        {name: "Tablet", value: 200, color: "#FF8042"},    
+    ]
+}
+
+export const bigChartData = {
+    title: "Revenue Analytics",
+    dataKey: "name",
+    chartSetting: {
+        books: "#8884d8",
+        clothes: "#82ca9d",
+        electronic: "#ffc658",
+    },
+    chartData: [
+        {
+            name: 'Sun',
+            books: 4000,
+            clothes: 2400,
+            electronic: 2400,
+          },
+          {
+            name: 'Mon',
+            books: 3000,
+            clothes: 1398,
+            electronic: 2210,
+          },
+          {
+            name: 'Tue',
+            books: 2000,
+            clothes: 9800,
+            electronic: 2290,
+          },
+          {
+            name: 'Wed',
+            books: 2780,
+            clothes: 3908,
+            electronic: 2000,
+          },
+          {
+            name: 'Thu',
+            books: 1890,
+            clothes: 4800,
+            electronic: 2181,
+          },
+          {
+            name: 'Fri',
+            books: 2390,
+            clothes: 3800,
+            electronic: 2500,
+          },
+          {
+            name: 'Sat',
+            books: 3490,
+            clothes: 4300,
+            electronic: 2100,
+          },
     ]
 }
