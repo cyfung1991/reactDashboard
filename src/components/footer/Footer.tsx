@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <span>Dashboard</span>
-      <span>Super Dashboard</span>
+      <span>React Dashboard</span>
     </div>
   )
 }
