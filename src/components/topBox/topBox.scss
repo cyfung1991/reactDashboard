@@ -31,7 +31,7 @@
 
                     
                     @include md {
-                        display: block;
+                        display: none;
                     }
                 }
                 .userTexts {
@@ -45,13 +45,13 @@
                     }
                     .email {
                         font-size: 12px;
-
-                        @include xxl {
-                            display: none;
-                        }
     
                         @include lg {
                             display: block;
+                        }
+
+                        @include md {
+                            display: none;
                         }
                     }
                 }
