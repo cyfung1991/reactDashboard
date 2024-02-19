@@ -142,7 +142,7 @@ export const topDealUsers = [
         img: "https://robohash.org/Miles.png?set=set4",
         username: "atuny3",
         email: "atuny3@sohu.com",
-        amount: "10000.11",
+        amount: "95.11",
     },
     {
         id: 5,
