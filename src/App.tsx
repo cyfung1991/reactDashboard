@@ -3,14 +3,16 @@ import {
   RouterProvider,
   Outlet
 } from "react-router-dom";
+import "./styles/global.scss";
 import Home from "./pages/home/Home";
 import Users from "./pages/users/Users";
-import Products from "./pages/products/Product";
+import Products from "./pages/products/Products";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import Login from "./pages/login/Login";
-import "./styles/global.scss";
+import Product from "./pages/products/Product";
+import User from "./pages/users/User";
 
 function App() {
 
@@ -47,7 +49,15 @@ function App() {
         {
           path: "products",
           element: <Products />
-        }
+        },
+        {
+          path: "users/:id",
+          element: <User />
+        },
+        {
+          path: "products/:id",
+          element: <Product />
+        },
       ]
     },
     {
