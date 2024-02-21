@@ -37,6 +37,14 @@
         grid-row: span 3;
     }
 
+    // Pie chart not support in sm size
+    
+    @include sm {
+        .box4 {
+            display: none;
+        }
+    }
+
     .box7 {
         grid-column: span 2;
         grid-row: span 2;
